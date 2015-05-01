@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.home {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fullName {
+    font-size: 6em;
+    margin-bottom: 1%;
+}
+
+.occupation {
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.fullName, .occupation {
+    color: green;
+}
