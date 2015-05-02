@@ -1,18 +1,19 @@
-html, body {
-    height: 100%;
+body {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
 }
-.home {
-    background: url(../images/monkeys.jpg) no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-}
 
+.home {
+    height: 100vh;
+    background: url('../images/monkeys.jpg') no-repeat center center;
+    background-size: cover;
+}
+.homeInfo {
+}
 .centered {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -20,6 +21,7 @@ html, body {
 
 .fullName {
     font-size: 6em;
+    margin-top: 0;
     margin-bottom: 1%;
     -webkit-animation-duration: 1.4s !important;
 }
@@ -32,6 +34,12 @@ html, body {
 }
 
 .fullName, .occupation {
-    color: white;
+    color: black;
     font-family: 'Lato';
+}
+.about {
+    height: 100vh;
+
+    background: url('../images/background.jpg') no-repeat center center;
+    background-size: cover;
 }
