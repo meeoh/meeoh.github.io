@@ -3,7 +3,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
-    font-family: 'Lato';
+    font-family: 'Lato' !important;
 }
 
 .home {
@@ -56,5 +56,9 @@ body {
 }
 
 hr {
-    width: 50%;
+    width: 20%;
+}
+
+.firstParagraph {
+    margin-bottom: 2%;
 }
