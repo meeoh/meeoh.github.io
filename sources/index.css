@@ -24,6 +24,7 @@ body {
     margin-top: 0;
     margin-bottom: 1%;
     -webkit-animation-duration: 1.4s !important;
+    -webkit-animation-delay: 1s;
 }
 
 .occupation {
@@ -31,6 +32,7 @@ body {
     text-align: center;
     margin-top: 2%;
     -webkit-animation-duration: 1.4s !important;
+    -webkit-animation-delay: 1s;
 }
 
 .fullName, .occupation {
@@ -39,7 +41,10 @@ body {
 }
 .about {
     height: 100vh;
-
     background: url('../images/background.jpg') no-repeat center center;
     background-size: cover;
+}
+
+.aboutme {
+    margin-top: 0;
 }
