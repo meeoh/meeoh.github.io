@@ -6,7 +6,7 @@ html, body {
     margin-bottom: 0;
 }
 .home {
-    background: url(../images/background.jpg) no-repeat center center fixed;
+    background: url(../images/monkeys.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -21,14 +21,17 @@ html, body {
 .fullName {
     font-size: 6em;
     margin-bottom: 1%;
+    -webkit-animation-duration: 1.4s !important;
 }
 
 .occupation {
     font-size: 3.5em;
     text-align: center;
     margin-top: 2%;
+    -webkit-animation-duration: 1.4s !important;
 }
 
 .fullName, .occupation {
-    color: green;
+    color: white;
+    font-family: 'Lato';
 }
