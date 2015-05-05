@@ -26,6 +26,7 @@ body {
     margin-bottom: 1%;
     -webkit-animation-duration: 1.4s !important;
     -webkit-animation-delay: 1s;
+
 }
 
 .occupation {
@@ -37,8 +38,12 @@ body {
 }
 
 .fullName, .occupation {
-    color: black;
-
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
 
 .navbar {
