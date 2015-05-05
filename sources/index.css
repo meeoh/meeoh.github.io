@@ -33,32 +33,53 @@ body {
     text-align: center;
     margin-top: 2%;
     -webkit-animation-duration: 1.4s !important;
-    -webkit-animation-delay: 1s;
+    -webkit-animation-delay: 1.15s;
 }
 
 .fullName, .occupation {
     color: black;
 
 }
-.about {
-    height: 100vh;
-    background: url('../images/background.jpg') no-repeat center center;
-    background-size: cover;
+
+.navbar {
+    margin-bottom: 0 !important;
 }
 
-.aboutTitle {
-    text-align: center;
-    font-size: 2.5em;
+.about {
+    height: 100vh;
+    /*background: url('../images/background.jpg') no-repeat center center;
+    background-size: cover;*/
+}
+
+.aboutContent {
+    position: absolute;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
 }
 
 .aboutme {
-    margin-top: 0;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    color: #2c3d4f;
+    letter-spacing: .1em;
 }
 
 hr {
-    width: 20%;
+    width: 3%;
+    border-top: 2px solid #f4a622 !important;
 }
 
 .firstParagraph {
     margin-bottom: 2%;
+    color: #7e868e;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.secondParagraph {
+    color: #7e878e;
+    font-size: 1.2em;
 }
