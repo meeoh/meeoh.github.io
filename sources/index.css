@@ -66,7 +66,7 @@ body {
 
 .aboutme {
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bold;
     color: #2c3d4f;
     letter-spacing: .1em;
@@ -106,6 +106,18 @@ hr {
     font-size: 1.2em;
 }
 
-.cube {
-    
+.hobbiesTitle {
+    color: #7e868e;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 4%;
 }
+
+.test {
+}
+
+li {
+    display: inline;
+    margin-right: 15%;
+}
+
