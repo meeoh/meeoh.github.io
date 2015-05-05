@@ -88,3 +88,24 @@ hr {
     color: #7e878e;
     font-size: 1.2em;
 }
+
+.paragraphs {
+    margin-bottom: 10%;
+}
+
+.infoTitle {
+    float: left;
+    margin-right: 5%;
+    color: #7e868e;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.infoDetails {
+    color: #7e868e;
+    font-size: 1.2em;
+}
+
+.cube {
+    
+}
