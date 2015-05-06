@@ -47,7 +47,12 @@ body {
 }
 
 .navbar {
+    visibility: none;
     margin-bottom: 0 !important;
+    width: 100%;
+}
+.navbar-default {
+    /*background-color:  !important;*/
 }
 
 .about {

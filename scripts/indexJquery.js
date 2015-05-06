@@ -7,4 +7,9 @@ $(document).ready(function(){
     $('.fullName').addClass('fadeInUpBig');
     $('.occupation').addClass('fadeInUpBig');
 
+    $('nav li').click(function(){
+        $('nav li').removeClass('active');
+        $(this).addClass('active');
+    });
+
 });

@@ -14,24 +14,23 @@
     <body>
 
 
-    <section class="home">
-        <div class="homeInfo centered">
+    <section class="home" id="home">
+        <div  class="homeInfo centered">
             <h1 class="fullName animated ">Shameel Abdullah</h1>
             <h2 class="occupation animated">Programmer</h2>
         </div>
     </section>
 
-    <nav class="navbar navbar-default">
+    <nav data-anchor-target="#about"
+         data-180-top="opacity:0;"
+         data-130-top="visibility:visible; opacity: 0.3;"
+         data-80-top="opacity: 1; position: fixed; top: 0;" class="navbar navbar-default">
         <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img alt="Brand" src="">
-                </a>
-            </div>
+
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home </a></li>
-                    <li><a href="#">Link</a></li>
+                    <li class="active"><a href="#home">Home </a></li>
+                    <li><a href="#about">About Me</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
@@ -42,7 +41,7 @@
     </nav>
 
 
-    <section class="about">
+    <section class="about" id="about">
             <div class="aboutContent">
                 <h1 class="aboutme">ABOUT ME</h1>
                 <hr>
@@ -91,5 +90,13 @@
                 </div>
         </div>
     </section>
+
+
+    <script type="text/javascript" src="sources/skrollr.js"></script>
+    <script type="text/javascript" src="sources/skrollr.menu.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+        skrollr.menu.init(s);
+    </script>
     </body>
 </html>
