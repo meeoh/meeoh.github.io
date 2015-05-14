@@ -11,7 +11,14 @@ body {
     background: url('../images/monkeys.jpg') no-repeat center center;
     background-size: cover;
 }
+.home .container {
+
+    /*transform: translate(-50%, -50%);*/
+}
 .homeInfo {
+    text-align: center;
+    margin-top: 50%;
+
 }
 .centered {
     position: absolute;
