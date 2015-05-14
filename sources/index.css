@@ -47,7 +47,7 @@ body {
 }
 
 .navbar {
-    visibility: none;
+    visibility: hidden;
     margin-bottom: 0 !important;
     width: 100%;
 }
@@ -69,7 +69,7 @@ body {
     width: 100%;
 }
 
-.aboutme {
+.aboutme, .resumeTitle {
     text-align: center;
     font-size: 5em;
     font-weight: bold;
@@ -128,6 +128,7 @@ hr {
 }
 
 .resume {
-    height: 106vh;
+    height: 100vh;
+    padding: 150px 0;
     background-color: #F0F2F7;
 }
