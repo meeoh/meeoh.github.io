@@ -12,4 +12,10 @@ $(document).ready(function(){
         $(this).addClass('active');
     });
 
+    $('.post-icon').hide()
+
+    $('.timeline-post').hover(function(){
+        $('.post-icon').show();
+    }, function(){$('.post-icon').hide()});
+
 });

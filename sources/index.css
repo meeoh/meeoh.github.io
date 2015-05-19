@@ -169,6 +169,7 @@ hr {
     /*temporary*/
     margin-top: 50%;
     border-radius: 5px;
+
 }
 
 .timeline-post:hover {
@@ -177,11 +178,12 @@ hr {
 
 .post-icon {
     position: absolute;
-    right: 10px;
-    border-radius: 50%;
-    height:15px;
-    width: 15px;
-    background-color: black;
+    right: 6.5%;
+    height: 0;
+    width: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid white;
 }
 
 .post-title h4 {
