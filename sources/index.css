@@ -135,8 +135,8 @@ hr {
 }
 
 .resume {
-    height: 100vh;
-    padding: 150px 0;
+    /*height: 100vh;*/
+    padding-top: 150px;
     background-color: #F0F2F7;
 }
 
@@ -157,4 +157,47 @@ hr {
 .timelineHeader:hover {
     color: #f4a622;
     text-decoration: none;
+}
+
+.left-side-timeline {
+    text-align: right;
+    padding-right: 4% !important;
+}
+
+.timeline-post {
+    padding: 10px;
+    /*temporary*/
+    margin-top: 50%;
+    border-radius: 5px;
+}
+
+.timeline-post:hover {
+    background-color: white;
+}
+
+.post-icon {
+    position: absolute;
+    right: 10px;
+    border-radius: 50%;
+    height:15px;
+    width: 15px;
+    background-color: black;
+}
+
+.post-title h4 {
+    font-size: 1.5em;
+    color: #2c3d4f;
+    font-weight: bold;
+}
+
+.post-subtitle-content {
+    font-size: 1.2em;
+    color: #2c3e50;
+    font-weight: 400;
+}
+
+.post-content {
+    color: #7d878f;
+    font-size: 1.2em;
+    font-weight: 300;
 }
