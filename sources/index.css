@@ -139,3 +139,22 @@ hr {
     padding: 150px 0;
     background-color: #F0F2F7;
 }
+
+.experiencesTimelineHeader{
+    text-align: center;
+}
+
+.timelineHeader {
+    color: #2c3d4f;
+    font-size: 2.5em;
+    padding: 1px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 10px solid #dbdde5;
+    background-color: #dbdde5;
+}
+
+.timelineHeader:hover {
+    color: #f4a622;
+    text-decoration: none;
+}
