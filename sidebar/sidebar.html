@@ -21,7 +21,9 @@
                             <i class="fa fa-bars fa-lg" style="font-size: 3.33em" aria-hidden="true"></i>
                         </a>
                     </li>
-                    <li><a href="#"><img src="logo.png" style="height:60px"></a></li>
+                    <li>
+                        <a href="#"><img src="logo.png" style="height:60px"></a>
+                    </li>
                     <li class="social pull-right"><a style="margin-top: 15px;font-size: 3em" href="#">Cart</a></li>
                 </ul>
             </div>
@@ -31,10 +33,10 @@
     </nav>
     <div id='slider' style="padding-top:5%;padding-left:2%;display: none">
         <input class="sideBarSearchInput"> <span style="font-size:30px;font-weight:bold;letter-spacing:3px">SEARCH</span></input>
-        <ul style="list-style:none;margin-top:45px" class="sideBarList" >
-            <li id="SWIMWEAR">
+        <ul style="list-style:none;margin-top:45px" class="sideBarList">
+            <li class="activeList" id="SWIMWEAR">
                 <b class="sideBarBoldTitle">SWIMWEAR</b>
-                <ul class='activeList sideBarSubList'>
+                <ul style="display:block" class='sideBarSubList'>
                     <li>MID-SEASON SALE</li>
                     <li>OUTERWEAR</li>
                     <li>BOMBERS</li>
@@ -85,13 +87,40 @@
     });
 
     $('li').click(function(ev) {
-        $(this).find('>ul').slideToggle();
+
         var clicked = ev.toElement.innerText;
-        var active = ($('.activeList').parent()[0].id);
+        var active;
+        if ($(".activeList").length > 0) {
+            active = $(".activeList")[0].id;
+        } else {
+            $(this).find('>ul').slideToggle();
+            $(this).addClass("activeList");
+            return;
+        }
+
+        console.log("CLICKED: " + clicked);
+        console.log("ACTIVE: " + active);
+
+
+        if (!clicked) {
+            return;
+        }
+
+        if (clicked != active) {
+            $(".activeList>ul").slideToggle();
+            $(".activeList").removeClass("activeList");
+            $(this).addClass("activeList");
+        } else {
+            $(".activeList").removeClass("activeList");
+        }
+
+        $(this).find('>ul').slideToggle();
+
+
         ev.stopPropagation();
     });
 
-    $(document).ready(function(){
+    $(document).ready(function() {
         $("#slider").css("display", "block");
         $("#slider").css("left", "-882px")
     });
