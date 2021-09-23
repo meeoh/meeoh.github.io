@@ -9,7 +9,7 @@ const about = {
   name: 'Shameel Abdullah',
   role: 'Fullstack Developer',
   description:
-    'I am a 26 year old Computer Science graduate (University Of Waterloo). I have a passion for programming and technology. I am currently working as a web developer at Shopify.',
+    'I am a 26 year old Computer Science graduate (University Of Waterloo). I have a passion for programming and technology. I am currently working as a senior developer at Shopify.',
   resume: 'https://meeoh.github.io/resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/shameel-abdullah-07a4ab85/',
