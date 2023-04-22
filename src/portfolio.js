@@ -9,7 +9,7 @@ const about = {
   name: 'Shameel Abdullah',
   role: 'Fullstack Developer',
   description:
-    'I am a 26 year old Computer Science graduate (University Of Waterloo). I have a passion for programming and technology. I am currently working as a senior developer at Shopify.',
+    'I am a 28 year old Computer Science graduate (University Of Waterloo). I have a passion for programming and technology. I am currently working as a senior developer at Shopify.',
   resume: 'https://meeoh.github.io/resume.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/shameel-abdullah-07a4ab85/',
@@ -21,34 +21,39 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Tikok Web Audio Control',
+    name: 'Translation Collapser',
     description:
-      'Chrome extension to adjust the volume on tiktoks web platform.',
+      'Chrome extension for githubs code review process that collapses and marks files that match certain criteria as viewed',
     stack: ['Javascript', 'HTML', 'CSS'],
-    sourceCode: 'https://github.com/meeoh/Tiktok-Web-Audio-Control',
+    sourceCode: 'https://github.com/meeoh/Translation-Collapser',
     livePreview:
-      'https://chrome.google.com/webstore/detail/tiktok-audio-control/gkkbemmahdfblbnggbdbfhhdbmajpcab?hl=en-GB',
+      'https://chrome.google.com/webstore/detail/github-file-collapser/edoefkpbifgpalopdbikblemhdjhbkja?hl=en',
   },
   {
-    name: 'Hydroelectricity Tracker',
+    name: 'Jeopardy Labs Scraper',
+    description:
+      'A tool to scrape a popular jeopardy database and format in a certain json structure that is accepted by a fan-made version of Jeopardy that is available on steam',
+    stack: ['Svelte', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/meeoh/Jeopardy-Labs-Scraper',
+  },
+  {
+    name: 'Hydro Reporter',
     description:
       'Script to read the amount of hydro-electricity used in the past day',
     stack: ['Javascript', 'Puppeteer'],
     sourceCode: 'https://github.com/meeoh/Kwhydro-tracker',
   },
-  {
-    name: 'Slowed and Reverbed Bot',
-    description:
-      'Script to find new hiphop music and apply slowing and reverb effects and uploading to youtube',
-    stack: ['Python'],
-    sourceCode: 'https://github.com/meeoh/Slowed-And-Reverbed',
-    livePreview: 'https://www.youtube.com/channel/UCXhdKuPUh7YjZp2xDdgZK5w',
-  },
 ]
 
 const experiences = [
   {
-    name: 'Shopify (2020 - Current)',
+    name: 'AngelList (2022 - Current)',
+    description:
+      'I focus on AngelList build, a platform that provides resources, tools, and services to help startup founders and teams launch and grow their businesses',
+    livePreview: 'https://www.angellist.com/startups',
+  },
+  {
+    name: 'Shopify (2020 - 2022)',
     description:
       'At Shopify I work as a full stack developer, I initially started on the merchant analytics team where I helped our merchants gain a better unstanding of their business. As of recently I have moved teams and am helping improve our internal processes. ',
     livePreview: 'https://www.shopify.com/',
