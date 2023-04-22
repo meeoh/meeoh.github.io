@@ -59,7 +59,7 @@ const experiences = [
     livePreview: 'https://www.shopify.com/',
   },
   {
-    name: 'Applyboard (2018 - 2019)',
+    name: 'Applyboard (2018 - 2020)',
     description:
       'I spent around two years at Applyboard, where I was a full stack developer helping build a platform that assists international students in persuing education in North America',
     livePreview: 'https://www.applyboard.com/',
